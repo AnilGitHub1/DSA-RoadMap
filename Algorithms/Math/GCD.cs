@@ -9,6 +9,8 @@ namespace DSA.Algorithms.Math
   {
     public static int FindGCD(int A, int B)
     {
+      A = System.Math.Abs(A);
+      B = System.Math.Abs(B);
       if(A == 0 && B ==0 ) return 0;
       if(A ==0 || B == 0) return A+B;
       while(B != 0)
