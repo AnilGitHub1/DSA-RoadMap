@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Algorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Algorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Algorithms.dll": {}
+        }
+      },
+      "DataStructures/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/DataStructures.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStructures.dll": {}
+        }
+      },
+      "LeetCodeProblems/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/LeetCodeProblems.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeetCodeProblems.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorithms/1.0.0": {
+      "type": "project",
+      "path": "../Algorithms/Algorithms.csproj",
+      "msbuildProject": "../Algorithms/Algorithms.csproj"
+    },
+    "DataStructures/1.0.0": {
+      "type": "project",
+      "path": "../DataStructures/DataStructures.csproj",
+      "msbuildProject": "../DataStructures/DataStructures.csproj"
+    },
+    "LeetCodeProblems/1.0.0": {
+      "type": "project",
+      "path": "../LeetCodeProblems/LeetCodeProblems.csproj",
+      "msbuildProject": "../LeetCodeProblems/LeetCodeProblems.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Algorithms >= 1.0.0",
+      "DataStructures >= 1.0.0",
+      "LeetCodeProblems >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\goram\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\Runner\\Runner.csproj",
+      "projectName": "Runner",
+      "projectPath": "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\Runner\\Runner.csproj",
+      "packagesPath": "C:\\Users\\goram\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\Runner\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\goram\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\Algorithms\\Algorithms.csproj"
+            },
+            "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\DataStructures\\DataStructures.csproj": {
+              "projectPath": "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\DataStructures\\DataStructures.csproj"
+            },
+            "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\LeetCodeProblems\\LeetCodeProblems.csproj": {
+              "projectPath": "C:\\Users\\goram\\Code_files\\C#_Projects\\DSA\\LeetCodeProblems\\LeetCodeProblems.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
